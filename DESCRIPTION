@@ -1,13 +1,20 @@
 Package: toolboxMael
-Version: 0.0.0.9000
 Title: Créer Une Boite à Outils
-Description: Un ensemble de fonction pour lister et manipuler son envrionnement.
-Authors@R: person(given = "Maël",
-       family = "BEAUFORT",
-       role = c("aut", "cre"),
-       email = "mael.beaufort@atih.sante.fr",
-       comment = c(ORCID = "0000-0000-0000-0000"))
+Version: 0.0.0.9000
+Authors@R: 
+    person("Maël", "BEAUFORT", , "mael.beaufort@atih.sante.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Un ensemble de fonction pour lister et manipuler son
+    envrionnement.
 License: MIT + file LICENSE
+Suggests: 
+    glue,
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Config/fusen/version: 0.7.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
