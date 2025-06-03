@@ -1,0 +1,13 @@
+Package: toolboxMael
+Version: 0.0.0.9000
+Title: Créer Une Boite à Outils
+Description: Un ensemble de fonction pour lister et manipuler son envrionnement.
+Authors@R: person(given = "Maël",
+       family = "BEAUFORT",
+       role = c("aut", "cre"),
+       email = "mael.beaufort@atih.sante.fr",
+       comment = c(ORCID = "0000-0000-0000-0000"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
